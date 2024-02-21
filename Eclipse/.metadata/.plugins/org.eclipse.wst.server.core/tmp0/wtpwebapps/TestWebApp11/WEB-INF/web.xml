@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+<servlet>
+     <servlet-name>abc</servlet-name>
+     <servlet-class>servletexamples.FirstServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+     <servlet-name>abc</servlet-name>
+     <url-pattern>/servlet1</url-pattern>
+</servlet-mapping>
+
+<servlet>
+      <servlet-name>pqr</servlet-name>
+      <servlet-class>servletexamples.SecondServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+      <servlet-name>pqr</servlet-name>
+      <url-pattern>/servlet2</url-pattern>
+</servlet-mapping>
+
+</web-app>

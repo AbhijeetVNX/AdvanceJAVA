@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+<servlet>
+	<servlet-name>abc</servlet-name> 
+	<servlet-class>servletexamples.TriangleAreafinderServlet</servlet-class> 
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>abc</servlet-name> 
+	<url-pattern>/trianglearea</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>pqr</servlet-name>
+	<servlet-class>servletexamples.RectangleAreaFinderServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+		<servlet-name>pqr</servlet-name> 
+		<url-pattern>/rectarea</url-pattern>
+</servlet-mapping>
+</web-app>
